@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airplane Fly Project</title>
+    <style>
+        body{
+            overflow-x: hidden;
+        }
+        img{
+            width: 100px;
+            height: auto;
+            position: relative;
+            margin-top: 250px;
+            animation: fly 5s linear infinite;
+        }
+        @keyframes fly{
+            0%{left: 0;}
+            20%{left: 15%; transform: translateY(0);}
+            45%{transform: translateY(-70px);}
+            65%{transform: translateY(-150px);}
+            100%{left: 100%; transform: translateY(-250px);}
+        }
+    </style>
+</head>
+<body>
+    <img src="/white-jet-engine-airplane_102886-63.webp" alt="">
+</body>
+</html>
